@@ -12,7 +12,7 @@
                     <br>
                     <br>
                     <br>
-                    <h3 style="font-size: 30px;">Restuarant Log In</h3>
+                    <h3 style="font-size: 30px;">Bakery Log In</h3>
                     {% if error_message %}
                         <p><strong>{{ error_message }}</strong></p>
                     {% endif %}
@@ -21,7 +21,7 @@
                         {% csrf_token %}
                         <div class="form-group">
                             <label class="control-label col-sm-6" for="id_username">
-                                Restuarant Username:
+                                Bakery Username:
                             </label>
                             <div class="col-sm-6">
                                 <input id="id_username" maxlength="30" name="username" type="text">
